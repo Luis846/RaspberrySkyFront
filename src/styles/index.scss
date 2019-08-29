@@ -38,13 +38,45 @@
     font-family: 'Permanent Marker', cursive;
 }
 
+
 .head-title{
      font-family: 'Permanent Marker', cursive;
      margin-top: 100px;
 }
 
+.plan-name-title{
+  font-family: 'Permanent Marker', cursive;
+}
 
+.plan-body{
+  border: 2px solid #edc27b;
+  box-shadow: 4px 4px 2px -2px rgba(0,0,0,0.4);
+  background: url("http://pluspng.com/img-png/space-hd-png-black-space-and-white-stars-imitation-use-for-background-and-texture-852.jpg");
 
+}
+
+.about-section{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://wallpaperbro.com/img/160749.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.btn{
+  background-color:#edc27b;
+  color: #000;
+  border: #fff;
+}
+
+.btn:hover{
+  background-color: #94723c;
+}
+.grow { 
+  transition: all .2s ease-in-out; 
+  }
+   
+  .grow:hover { 
+  transform: scale(1.1); 
+  }
 .alii{
     color:#edc27b;
 }
@@ -141,6 +173,7 @@
     background: transparent;
 }
 
+
 //raspberry imges
 .raspimg
 {
@@ -162,7 +195,7 @@
     width: 420px;
     margin-top: 30px;
     border: 1px solid #edc27b;
-   box-shadow: 4px 4px 2px -2px rgba(0,0,0,0.4);
+    box-shadow: 4px 4px 2px -2px rgba(0,0,0,0.4);
 }
 .mission-p{
     font-size: 20px;
@@ -210,7 +243,9 @@
 }
 
 
-h2:after {
+
+h2:after,
+h3:after {
     display: block;
     height: 2px;
     background-color: #edc27b;
@@ -241,6 +276,11 @@ section{
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
 }
 
 @keyframes rotation {

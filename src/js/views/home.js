@@ -150,13 +150,12 @@ export class Home extends React.Component {
 						<Plans />
 					</div>
 				</section>
-				<p>
-					<Link to="/subscribe">
-						<a className="navbar-brand mb-0 h1 ">
-							<h3 className="m-3">Click here to choose your subscription plan</h3>
-						</a>
-					</Link>
-				</p>
+
+				<section className="about-section">
+					<div className="first-section-head">
+						<h2 className="text-white">About Us</h2>
+					</div>
+				</section>
 			</div>
 		);
 	}

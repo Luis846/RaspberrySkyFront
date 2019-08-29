@@ -24,6 +24,10 @@ export class SinglePlanPage extends React.Component {
 		};
 	}
 	render() {
+		const image1 = "https://cdn.shopify.com/s/files/1/0076/5922/5141/products/bronze_logo_1_250x.png?v=1562783230";
+		const image2 = "https://cdn.shopify.com/s/files/1/0076/5922/5141/products/bronze_logo_2_400x.png?v=1562783251";
+		const image3 = "https://cdn.shopify.com/s/files/1/0076/5922/5141/products/bronze_logo_2_400x.png?v=1562783251";
+
 		return (
 			<Context.Consumer>
 				{({ store, actions }) => {
@@ -33,13 +37,13 @@ export class SinglePlanPage extends React.Component {
 					return (
 						<div className="container mt-5 ">
 							<div className="row ">
-								<div className="col-6 mx-auto">
+								<div className="col-4 mx-auto">
 									<div className="card mt-5">
 										<h2 className="text-center">
 											{store.products[this.props.match.params.planId].plan_name}
 										</h2>
 										<img
-											src="http://lorempixel.com/output/sports-q-c-640-480-3.jpg"
+											src={store.products[this.props.match.params.planId].image}
 											className="card-img-top"
 											alt="..."
 											height="350px"
@@ -54,9 +58,16 @@ export class SinglePlanPage extends React.Component {
 												of the cards content.
 												{/*{item.description}*/}
 											</p>
-											<a href="#" className="btn btn-primary btn-lg">
-												{/*{item.price}*/}
-											</a>
+											<button
+												onClick={() =>
+													actions.purchasePlan(
+														store.currentUser,
+														store.products[this.props.match.params.planId].id
+													)
+												}
+												className="btn btn-primary btn-lg">
+												Buy
+											</button>
 										</div>
 									</div>
 								</div>

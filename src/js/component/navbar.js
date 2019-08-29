@@ -40,6 +40,29 @@ export class Navbar extends React.Component {
 											Mission
 										</a>
 
+										<a
+											className="navbar-brand mb-0 h1"
+											id="mission"
+											onClick={() =>
+												window.scrollTo({
+													top: 6000,
+													behavior: "smooth"
+												})
+											}>
+											About
+										</a>
+										<a
+											className="navbar-brand mb-0 h1"
+											id="mission"
+											onClick={() =>
+												window.scrollTo({
+													top: 3200,
+													behavior: "smooth"
+												})
+											}>
+											Plans
+										</a>
+
 										{/*<Link to="/subscribe">
 											<a className="navbar-brand mb-0 h1 mx-auto text-white">Subscriptions</a>
 										</Link>*/}
