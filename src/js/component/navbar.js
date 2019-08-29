@@ -56,7 +56,7 @@ export class Navbar extends React.Component {
 											id="mission"
 											onClick={() =>
 												window.scrollTo({
-													top: 3200,
+													top: 3000,
 													behavior: "smooth"
 												})
 											}>

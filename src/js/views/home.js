@@ -1,4 +1,5 @@
 import React from "react";
+import teamImage from "../../img/snap.png";
 import { Link } from "react-router-dom";
 import { Plans } from "./plans";
 import { Context } from "../store/appContext";
@@ -66,7 +67,7 @@ export class Home extends React.Component {
 								<p>
 									The mission to launch a miniature <b>low earth orbit</b> is to provide measurement
 									data of the earth&apos;s magnetic field, atmospheric pressure, temperature and
-									several other measurements at an afforble price that anyone could afford. As we
+									several other measurements at an affordable price that anyone could afford. As we
 									progress, the <span>Raspberry sky </span> will be upgraded with higher grade sensors
 									and provide even more data. In the near future the <span>Raspberry sky </span> will
 									be available for rent and will be outfitted with cameras, an ambient light sensor,
@@ -155,7 +156,65 @@ export class Home extends React.Component {
 					<div className="first-section-head">
 						<h2 className="text-white">About Us</h2>
 					</div>
+					<div className="row">
+						<div className="col text-center">
+							<img className="teamimg rounded" src={teamImage} />
+						</div>
+						<div className="col text-white about-us-p mission-p">
+							<p>
+								The team Luis Rivera and Naila Kaliyeva joined 4Geeks Code Bootcamp in something greater
+								than themselves, the <span>Raspberry Sky </span> was built during their time in 4Geeks
+								as a final project. The project took 400+ hours to complete the functionality and now
+								are currently building a prototype to send up in orbit.
+							</p>
+						</div>
+					</div>
 				</section>
+
+				<footer className="footer">
+					<div className="row">
+						<div className="col span-1-of-2">
+							<ul className="footer-nav">
+								<li>
+									<a href="#">About us</a>
+								</li>
+								<li>
+									<a href="#">Blog</a>
+								</li>
+								<li>
+									<a href="#">Press</a>
+								</li>
+							</ul>
+						</div>
+						<div className="col span-1-of-2">
+							<ul className="social-links">
+								<li>
+									<a href="#">
+										<ion-icon name="logo-facebook" class="ion-facebook" />
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<ion-icon name="logo-twitter" class="ion-twitter" />
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<ion-icon name="logo-googleplus" class="ion-google" />
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<ion-icon name="logo-instagram" class="ion-insta" />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div className="row">
+						<p className="col">Copyright &copy; 2018 by Raspberry Sky. All rights reserved</p>
+					</div>
+				</footer>
 			</div>
 		);
 	}

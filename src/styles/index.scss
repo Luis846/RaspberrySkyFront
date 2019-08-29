@@ -56,11 +56,17 @@
 }
 
 .about-section{
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://wallpaperbro.com/img/160749.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("http://premiumcoding.com/wp-content/uploads/2014/02/space-background1.png");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
+
+.about-us-p{
+  line-height: 50px;
+}
+
+
 .btn{
   background-color:#edc27b;
   color: #000;
@@ -276,6 +282,93 @@ section{
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
+}
+
+
+footer{
+  background-color: #333;
+  padding: 20px;
+  font-size: 80%;
+}
+
+.footer-nav{
+  list-style: none;
+  float: left;
+}
+
+.social-links{
+  list-style: none;
+  float: right;
+  font-size: 15px;
+}
+
+.footer-nav li,
+.social-links li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child{
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+
+.footer-nav li a:hover,
+.footer-nav li a:active{
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+}
+
+.ion-facebook,
+.ion-twitter,
+.ion-google,
+.ion-insta{
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.ion-facebook:hover{
+    color: #3b5998;
+}
+
+.ion-twitter:hover{
+    color:#00aced;
+}
+
+.ion-google:hover{
+    color: #dd4b39;
+}
+
+.ion-insta:hover{
+    color: #517fa4;
+}
+.teamimg{
+  margin-top: 50px;
+  height: 250px;
+  width: 300px;
+  border: 5px solid #edc27b;
+  box-shadow: 5px 5px 3px -3px rgba(0,0,0,0.4);
+}
+footer p{
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
 }
 
 @keyframes animatedBackground {
