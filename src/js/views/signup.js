@@ -29,10 +29,7 @@ export class Signup extends React.Component {
 				{({ store, actions }) => {
 					return (
 						<div className="mt-5">
-							<div id="stars" />
-							<div id="stars2" />
-							<div id="stars3" />
-							<div className="container m-2  parentForm mx-auto">
+							<div className="container mt-5  parentForm mx-auto">
 								<div className="text-center login">
 									<h2 className="pinkPart text-white">
 										Sign

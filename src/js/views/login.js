@@ -19,10 +19,8 @@ export class Login extends React.Component {
 			<Context.Consumer>
 				{({ store, actions }) => {
 					return (
-						<div className="mt-5">
-							<div id="stars" />
+						<div className="login-box">
 							<div id="stars2" />
-							<div id="stars3" />
 							<div className="container box mx-auto pt-3 mt-2 mb-5">
 								<div className="text-center login">
 									<h2 className="pinkPart text-white">
@@ -42,7 +40,7 @@ export class Login extends React.Component {
 										className="form-control"
 										id="exampleInputEmail1"
 										aria-describedby="emailHelp"
-										placeholder="johnnie_doe"
+										placeholder="Username"
 									/>
 								</div>
 								<div className="form-group col-7 m-auto">
@@ -54,7 +52,7 @@ export class Login extends React.Component {
 										type="password"
 										className="form-control"
 										id="exampleInputPassword1"
-										placeholder="12345464"
+										placeholder="password"
 									/>
 								</div>
 								<div className="text-center m-auto">

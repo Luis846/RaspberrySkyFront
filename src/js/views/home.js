@@ -158,7 +158,7 @@ export class Home extends React.Component {
 					</div>
 					<div className="row">
 						<div className="col text-center">
-							<img className="teamimg rounded" src={teamImage} />
+							<img className="teamimg rounded grow" src={teamImage} />
 						</div>
 						<div className="col text-white about-us-p mission-p">
 							<p>

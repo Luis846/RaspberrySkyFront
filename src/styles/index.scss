@@ -12,12 +12,17 @@
     background: linear-gradient(38deg,#edc27c, #b88b40);
     color: white;
     border-radius: 20px;
+    margin-top: 500px;
     //margin-top: 7rem;
 }
 .signUpBtn{
     margin-top: 1.1rem;
     background-color:#a39783;
 
+}
+
+.h-100{
+  background: url("http://pluspng.com/img-png/space-hd-png-black-space-and-white-stars-imitation-use-for-background-and-texture-852.jpg");
 }
 //Auto sentence
 .typer{
@@ -324,7 +329,36 @@ footer{
     transition: color 0.3s;
 }
 
+.icon-small{
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color:  #dba134;
+  font-size: 120%;
+  margin-top: -4px;
+  line-height: 120%;
+  vertical-align: middle;
+}
 
+.plan-box{
+
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 5%;
+  
+}
+
+.plan-ul{
+  list-style-type: none;
+}
+.plan-box div{
+  padding: 15px;
+
+}
+
+.plan-box ul li {
+  padding: 5px 0;
+}
 .footer-nav li a:hover,
 .footer-nav li a:active{
     color: #ddd;
@@ -365,12 +399,28 @@ footer{
   border: 5px solid #edc27b;
   box-shadow: 5px 5px 3px -3px rgba(0,0,0,0.4);
 }
+
+.login-box{
+  margin-top: 200px;
+}
+.table td {
+  text-align: center;   
+}
+
+.plan-cards{
+  border: 5px solid #edc27b;
+  background: url("http://premiumcoding.com/wp-content/uploads/2014/02/space-background1.png");
+  
+}
 footer p{
     color: #888;
     text-align: center;
     margin-top: 20px;
 }
 
+.h2-plan{
+
+}
 @keyframes animatedBackground {
 	from { background-position: 0 0; }
 	to { background-position: 100% 0; }

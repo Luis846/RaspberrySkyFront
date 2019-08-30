@@ -35,11 +35,11 @@ export class SinglePlanPage extends React.Component {
 					//		store.products.map((item, index) => {
 
 					return (
-						<div className="container mt-5 ">
-							<div className="row ">
-								<div className="col-4 mx-auto">
-									<div className="card mt-5">
-										<h2 className="text-center">
+						<div className="container mt-5 mb-5">
+							<div className="row text-center">
+								<div className="col-4 mx-auto text-center">
+									<div className="card mt-5 text-center plan-cards">
+										<h2 className="text-center plan-name-title text-white pt-3">
 											{store.products[this.props.match.params.planId].plan_name}
 										</h2>
 										<img
@@ -48,17 +48,18 @@ export class SinglePlanPage extends React.Component {
 											alt="..."
 											height="350px"
 										/>
-										<div className="card-body">
-											<h5 className="card-title">
+										<div className="card-body text-center">
+											<h5 className="card-title text-white">
 												Card title
 												{/*{item.plan_name}*/}
 											</h5>
-											<p className="card-text">
+											<p className="card-text text-center text-white">
 												Some quick example text to build on the card title and make up the bulk
 												of the cards content.
 												{/*{item.description}*/}
 											</p>
-											<button
+											{/* <button
+												href=""
 												onClick={() =>
 													actions.purchasePlan(
 														store.currentUser,
@@ -67,12 +68,11 @@ export class SinglePlanPage extends React.Component {
 												}
 												className="btn btn-primary btn-lg">
 												Buy
-											</button>
+											</button> */}
 										</div>
 									</div>
 								</div>
 							</div>
-							<img src="https://2slick.com/web/wp-content/themes/smartit/admin/extensions/timthumb.php?src=https%3A%2F%2F2slick.com%2Fweb%2Fwp-content%2Fuploads%2F2012%2F12%2Fpaypal_845x563.jpg&w=845" />
 						</div>
 					);
 					//});
