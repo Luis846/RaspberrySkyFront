@@ -9,14 +9,27 @@ export class Profile extends React.Component {
 	render() {
 		return (
 			<div className="container mt-5">
-				<div className="d-flex justify-content-between mt-5">
-					<h1 className="text-center text-danger">Status Page</h1>
+				<div className="d-flex  justify-content-between mt-5">
+					<h1 className="text-center status-title">Status Page</h1>
 					<Context.Consumer>
 						{({ store, actions }) => {
 							return (
-								<button onClick={() => actions.data()} type="button" className="btn btn-danger">
-									Retrieve data
-								</button>
+								<React.Fragment>
+									<div className="">
+										<button
+											onClick={() => actions.data()}
+											type="button"
+											className="btn btn-danger mr-2">
+											Retrieve data
+										</button>
+										<button
+											onClick={() => actions.resetData()}
+											type="button"
+											className="btn btn-danger">
+											Reset data
+										</button>
+									</div>
+								</React.Fragment>
 							);
 						}}
 					</Context.Consumer>

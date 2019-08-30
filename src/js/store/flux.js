@@ -26,6 +26,9 @@ const getState = ({ getStore, setStore }) => {
 			token: null
 		},
 		actions: {
+			resetData: () => {
+				setStore({ sessions: [] });
+			},
 			purchasePlan: (userId, productId) => {
 				fetch("http://127.0.0.1:3000/user/" + userId, {
 					method: "put",
