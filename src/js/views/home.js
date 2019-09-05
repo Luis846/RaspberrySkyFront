@@ -68,10 +68,13 @@ export class Home extends React.Component {
 									The mission to launch a miniature <b>low earth orbit</b> is to provide measurement
 									data of the earth&apos;s magnetic field, atmospheric pressure, temperature and
 									several other measurements at an affordable price that anyone could afford. As we
-									progress, the <span>Raspberry sky </span> will be upgraded with higher grade sensors
-									and provide even more data. In the near future the <span>Raspberry sky </span> will
-									be available for rent and will be outfitted with cameras, an ambient light sensor,
-									Geiger counter as well as several others such as a{"  "}
+									progress, the <span> Raspberry sky </span> will be upgraded with higher grade
+									sensors and provide even more data. In the near future the{" "}
+									<span>Raspberry sky </span> will be able to Sense data on a global scale such as
+									wildfires or results given in sinusoidal as it orbits in the van allen belt. The{" "}
+									<span>Raspberry sky</span> will be available for rent and will be outfitted with
+									cameras, an ambient light sensor, Geiger counter as well as several others such as a
+									{"  "}
 									<Typed
 										strings={[
 											" Barometer..",
