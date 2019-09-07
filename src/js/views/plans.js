@@ -42,7 +42,7 @@ export class Plans extends React.Component {
 																Full Access
 															</li>
 															<li>
-																<i className="fas fa-check icon-small" />
+																<i  className=" fas fa-check icon-small" />
 																Save Recent Data
 															</li>
 															<li>
