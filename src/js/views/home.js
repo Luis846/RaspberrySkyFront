@@ -68,13 +68,12 @@ export class Home extends React.Component {
 									The mission to launch a miniature <b>low earth orbit</b> is to provide measurement
 									data of the earth&apos;s magnetic field, atmospheric pressure, temperature and
 									several other measurements at an affordable price that anyone could afford. As we
-									progress, the <span> Raspberry sky </span> will be upgraded with higher grade
-									sensors and provide even more data. In the near future the{" "}
-									<span>Raspberry sky </span> will be able to Sense data on a global scale such as
-									wildfires or results given in sinusoidal as it orbits in the van allen belt. The{" "}
-									<span>Raspberry sky</span> will be available for rent and will be outfitted with
-									cameras, an ambient light sensor, Geiger counter as well as several others such as a
-									{"  "}
+									progress, the <span> S Data Mk1</span> will be upgraded with higher grade sensors
+									and provide even more data. In the near future the <span>S Data Mk 1 </span> will be
+									able to Sense data on a global scale such as wildfires or results given in
+									sinusoidal as it orbits in the van allen belt. The <span>S Data Mk 1</span> will be
+									available for rent and will be outfitted with cameras, an ambient light sensor,
+									Geiger counter as well as several others such as a{"  "}
 									<Typed
 										strings={[
 											" Barometer..",
@@ -103,7 +102,7 @@ export class Home extends React.Component {
 						<div className="col mission-p">
 							<Rotate top left>
 								<p className="text-white">
-									The <span> Raspberry Sky</span> was developed using in combination of a credit-card
+									The <span> S Data Mk 1</span> was developed using in combination of a credit-card
 									sized computer known as a Raspberry Pi along with an attachment known as a sense
 									hat.
 									<ul>
@@ -130,7 +129,7 @@ export class Home extends React.Component {
 							<Rotate bottom right>
 								<p>
 									The Sense hat has several sensors built-in this enables the{" "}
-									<span> Raspberry Sky </span> to relay the information measured via sense hat through
+									<span> S Data Mk 1</span> to relay the information measured via sense hat through
 									it&apos;s multiple sensors back to the user.
 									<ul>
 										<li>Gyroscope – angular rate sensor: +/-245/500/2000dps</li>
@@ -166,9 +165,9 @@ export class Home extends React.Component {
 						<div className="col text-white about-us-p mission-p">
 							<p>
 								The team Luis Rivera and Naila Kaliyeva joined 4Geeks Code Bootcamp in something greater
-								than themselves, the <span>Raspberry Sky </span> was built during their time in 4Geeks
-								as a final project. The project took 400+ hours to complete the functionality and now
-								are currently building a prototype to send up in orbit.
+								than themselves, the <span>S Data Mk 1</span> was built during their time in 4Geeks as a
+								final project. The project took 400+ hours to complete the functionality and now are
+								currently building a prototype to send up in orbit.
 							</p>
 						</div>
 					</div>

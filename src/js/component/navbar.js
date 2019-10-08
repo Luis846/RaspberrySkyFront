@@ -18,7 +18,7 @@ export class Navbar extends React.Component {
 							<Link to="/home">
 								<i className="fas fa-project-diagram fa-2x text-white icons" />
 								<a className="navbar-brand mb-0 h1 title-name">
-									<span className="rasp">Raspberry Sky</span>
+									<span className="rasp">Satellite Data Beta</span>
 								</a>
 							</Link>
 							<div className="ml-auto">
